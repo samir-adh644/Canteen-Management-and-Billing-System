@@ -41,7 +41,7 @@ void addItem() {
         }
     }
 
-    printf("Enter Item Name: ");
+    printf("Enter Item Name(use '_' instead of spaces): ");
     scanf(" %[^\n]s", item.name);
     printf("Enter Item Price: ");
     scanf("%f", &item.price);
